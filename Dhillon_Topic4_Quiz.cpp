@@ -131,9 +131,9 @@ int main() {
 				cout << "The quality point is " << Quality_Point << endl;
 				break;
 				}
-		   }
+		}
            // if the score is not in the range of 0 to 100 then displayed the error message.
-		   else cout << "The score is invalid." << endl;
+	else cout << "The score is invalid." << endl;
 	} 
     // Returned 0 to end the program.
 	return 0;
