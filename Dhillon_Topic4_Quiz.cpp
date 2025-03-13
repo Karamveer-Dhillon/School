@@ -35,46 +35,36 @@ int main() {
         // checked the score and assigned the letter grade based on the score.
 		if ( Marks >=90) {
 			Grade = 'A';
-			cout << "The letter grade is " << Grade << endl;
 		}
 		else if (Marks >=80 && Marks <90) {
 			Grade = 'B';
-			cout << "The letter grade is " << Grade << endl;
 		}
 		else if (Marks >=70 && Marks <80) {
 			Grade = 'C';
-			cout << "The letter grade is " << Grade << endl;
 		}
 		else if (Marks >=60 && Marks <70) {
 			Grade = 'D';
-			cout << "The letter grade is " << Grade << endl;
 		}
 		else {
 			Grade = 'F';
-			cout << "The letter grade is " << Grade << endl;
 		}
         
         // assigned the quality point based on the letter grade using switch function.
 		switch (Grade) {
 		case 'A':
 			Quality_Point = "4";
-			cout << "The quality point is " << Quality_Point << endl;
 			break;
 		case 'B':
 			Quality_Point = "3";
-			cout << "The quality point is " << Quality_Point << endl;
 			break;
 		case 'C':
 			Quality_Point = "2";
-			cout << "The quality point is " << Quality_Point << endl;
 			break;
 		case 'D':
 			Quality_Point = "1";
-			cout << "The quality point is " << Quality_Point << endl;
 			break;
 		case 'F':
 			Quality_Point = "none";
-			cout << "The quality point is " << Quality_Point << endl;
 			break;
 		}
 		
@@ -90,51 +80,43 @@ int main() {
 		if (Marks >=0 && Marks <=100) {
 			if ( Marks >=90) {
 				Grade = 'A';
-				cout << "The letter grade is " << Grade << endl;
 			}
 			else if (Marks >=80 && Marks <90) {
 				Grade = 'B';
-				cout << "The letter grade is " << Grade << endl;
 			}
 			else if (Marks >=70 && Marks <80) {
 				Grade = 'C';
-				cout << "The letter grade is " << Grade << endl;
 			}
 			else if (Marks >=60 && Marks <70) {
 				Grade = 'D';
-				cout << "The letter grade is " << Grade << endl;
 			}
 			else {
 				Grade = 'F';
-				cout << "The letter grade is " << Grade << endl;
 			}
             // assigned the quality point based on the letter grade using switch function.
 			switch (Grade) {
 			case 'A':
 				Quality_Point = "4";
-				cout << "The quality point is " << Quality_Point << endl;
 				break;
 			case 'B':
 				Quality_Point = "3";
-				cout << "The quality point is " << Quality_Point << endl;
 				break;
 			case 'C':
 				Quality_Point = "2";
-				cout << "The quality point is " << Quality_Point << endl;
 				break;
 			case 'D':
 				Quality_Point = "1";
-				cout << "The quality point is " << Quality_Point << endl;
 				break;
 			case 'F':
 				Quality_Point = "none";
-				cout << "The quality point is " << Quality_Point << endl;
 				break;
 				}
 		}
            // if the score is not in the range of 0 to 100 then displayed the error message.
 	else cout << "The score is invalid." << endl;
 	} 
+	cout << "The letter grade is: " << Grade << endl;
+	cout << "The quality point is: " << Quality_Point << endl;
     // Returned 0 to end the program.
 	return 0;
 }
